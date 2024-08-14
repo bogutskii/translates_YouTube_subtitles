@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Subtitle Speaker</title>
+</head>
+<body>
+<h1>YouTube Subtitle Speaker</h1>
+<label for="language">Choose language:</label>
+<select id="language">
+    <option value="ru">Russian</option>
+    <option value="en">English</option>
+    <option value="es">Spanish</option>
+</select>
+<br>
+<label for="enabled">Enable Speaking:</label>
+<input type="checkbox" id="enabled">
+<br>
+<label for="rate">Speech Rate:</label>
+<input type="range" id="rate" min="0.5" max="2" step="0.1" value="1.1">
+<br>
+<label for="pitch">Speech Pitch:</label>
+<input type="range" id="pitch" min="0.5" max="2" step="0.1" value="1.0">
+<br>
+<button id="save">Save</button>
+<button id="toggle">Toggle Speaking</button>
+<script src="popup.js"></script>
+</body>
+</html>
